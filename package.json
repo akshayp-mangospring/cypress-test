@@ -13,6 +13,6 @@
   "author": "Akshay Pawar",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^9.7.0"
+    "cypress": "^10.0.1"
   }
 }
