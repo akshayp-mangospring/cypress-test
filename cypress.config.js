@@ -9,6 +9,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       return require('./cypress/plugins/index.js')(on, config);
     },
-    baseUrl: 'https://www.google.com',
+    // Change this URL when we want to switch our domain of testing
+    baseUrl: 'https://pages.mangopulse.com/',
   },
 });
