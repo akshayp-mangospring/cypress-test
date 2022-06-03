@@ -10,6 +10,6 @@ module.exports = defineConfig({
       return require('./cypress/plugins/index.js')(on, config);
     },
     // Change this URL when we want to switch our domain of testing
-    baseUrl: 'https://pages.mangopulse.com/',
+    baseUrl: 'https://riadomain.mangopulse.com',
   },
 });
