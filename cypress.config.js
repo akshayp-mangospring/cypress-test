@@ -11,14 +11,5 @@ module.exports = defineConfig({
     },
     // Change this URL when we want to switch our domain of testing
     baseUrl: 'https://riadomain.mangopulse.com',
-    env: {
-      qa: {
-        user_email: 'admin@riadomain.com',
-        user_pass: 'Mango@123',
-      },
-      google: {
-        query: 'Hello World!',
-      }
-    },
   },
 });
