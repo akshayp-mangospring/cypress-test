@@ -1,7 +1,7 @@
 describe('Login into MangoApps', () => {
   it('Visits Login page of the app and tries to login with invalid details', () => {
     cy.visit('/');
-    cy.get('#user_id').click().type('admin@riadomain.com');
+    cy.get('#user_id').click().type(Cypress.env('qa').user_email);
     cy.get('#password').click().type('@123{enter}');
   });
 
@@ -11,8 +11,8 @@ describe('Login into MangoApps', () => {
 
   it('Visits Login page of the app and tries to login with valid details', () => {
     cy.visit('/');
-    cy.get('#user_id').click().type('admin@riadomain.com');
-    cy.get('#password').click().type('Mango@123');
+    cy.get('#user_id').click().type(Cypress.env('qa').user_email);
+    cy.get('#password').click().type(Cypress.env('qa').user_pass);
     cy.get('#yui-gen0').click();
   });
 
