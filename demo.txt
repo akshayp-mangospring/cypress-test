@@ -1,0 +1,12 @@
+Who knows TDD?
+Basic Setup, Tell people why Cypress and why not Selenium
+Show the team the directory structure
+Write basic test case, Google `do a barrel roll`
+Then show the sanity suite
+Show how it's run for different envs
+Then show tests reusability. How login works for different users
+Tell the team about preserving cookies and Cypress hooks
+Tell the team how fixtures works
+Tell the team support for iFrame communication
+Show the team actual Cypress docs and tuts links
+Tell the team that we can use `cy.wait()` since our site is slow to load. That's why we should solve the problem of JS performance through architecture revamp
